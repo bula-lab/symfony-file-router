@@ -1,0 +1,17 @@
+{
+    "name": "the-bula-lab/symfony-file-routing",
+    "description": "File base routing library for the Symfony",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "TheBulaLab\\SymfonyFileRouting\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Grzegorz Piekarczyk",
+            "email": "thebuladev@gmail.com"
+        }
+    ],
+    "require": {}
+}
