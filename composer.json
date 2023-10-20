@@ -1,10 +1,10 @@
 {
-    "name": "the-bula-lab/symfony-file-routing",
+    "name": "bula-lab/symfony-file-routing",
     "description": "File base routing library for the Symfony",
-    "type": "library",
+    "type": "symfony-bundle",
     "autoload": {
         "psr-4": {
-            "TheBulaLab\\SymfonyFileRouting\\": "src/"
+            "BulaLab\\SymfonyFileRouting\\": "src/"
         }
     },
     "authors": [
