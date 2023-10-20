@@ -1,2 +1,2 @@
-# Symfony File Routing Library
+# Symfony File Router
 Symfony routing library, based on files
