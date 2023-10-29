@@ -15,5 +15,8 @@
     ],
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.37"
+    },
+    "scripts": {
+        "phpcs": "php vendor/bin/php-cs-fixer fix"
     }
 }
