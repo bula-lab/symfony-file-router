@@ -81,4 +81,3 @@ return (new PhpCsFixer\Config())
     )
     ->setCacheFile('.php-cs-fixer.cache')
 ;
-
