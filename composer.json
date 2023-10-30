@@ -1,10 +1,10 @@
 {
-    "name": "the-bula-lab/symfony-file-routing",
+    "name": "bula-lab/symfony-file-router",
     "description": "File base routing library for the Symfony",
-    "type": "library",
+    "type": "symfony-bundle",
     "autoload": {
         "psr-4": {
-            "TheBulaLab\\SymfonyFileRouting\\": "src/"
+            "BulaLab\\SymfonyFileRouter\\": "src/"
         }
     },
     "authors": [
@@ -13,5 +13,10 @@
             "email": "thebuladev@gmail.com"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.37"
+    },
+    "scripts": {
+        "phpcs": "php vendor/bin/php-cs-fixer fix"
+    }
 }
