@@ -11,8 +11,8 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace BulaLab\SymfonyFileRouting;
+namespace BulaLab\SymfonyFileRouter;
 
-class BulaLabSymfonyFileRouter extends Bundle
+class BulaLabSymfonyFileRouterBundle extends Bundle
 {
 }
